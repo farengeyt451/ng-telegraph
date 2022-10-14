@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+button[type='button'] {
+  height: 50px;
+  width: calc(100% / 9);
+}
+
+output {
+  display: block;
+  font-size: 34px;
+  text-align: center;
+  margin: 20px;
+  color: slategrey;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+}
+
+button[type='reset'] {
+  padding: 8px 20px;
+}

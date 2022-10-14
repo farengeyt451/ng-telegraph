@@ -1,0 +1,6 @@
+<span
+  class="bar"
+  [class.bar_pending]="pending$ | async"
+  [style.height.%]="progress$ | async"
+></span>
+<ng-content></ng-content>
